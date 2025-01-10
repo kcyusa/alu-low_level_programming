@@ -1,0 +1,3 @@
+#!/bin/bash
+OUTPUT_FILE="${CFILE%.c}.o"
+gcc -c "$CFILE" -o "$OUTPUT_FILE"
