@@ -1,4 +1,3 @@
-#include <ctype.h>
 /**
  * _islower - Writes a single character to the standard output
  * @c: ASCII notation
@@ -6,13 +5,12 @@
  */
 int _islower(int c)
 {
-int res = islower(c);
-if (res == 0)
+if (c >= 'a' && c <= 'z')
 {
-return (0);
+return (1);
 }
 else
 {
-return (1);
+return (0);
 }
 }
