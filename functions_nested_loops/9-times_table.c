@@ -17,7 +17,10 @@ for (j = 0; j < 10; j++)
 int num = j * i;
 if (num < 10)
 {
+if (j != 0)
+{
 _putchar(' ');
+}
 _putchar(num + '0');
 }
 else
@@ -34,9 +37,6 @@ _putchar(' ');
 }
 
 }
-if (i != 9)
-{
 _putchar('\n');
-}
 }
 }
