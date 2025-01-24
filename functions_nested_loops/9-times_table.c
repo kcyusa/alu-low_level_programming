@@ -17,6 +17,7 @@ for (j = 0; j < 10; j++)
 int num = j * i;
 if (num < 10)
 {
+ _putchar(' ');   
 _putchar(num + '0');
 }
 else
