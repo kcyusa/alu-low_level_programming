@@ -1,13 +1,15 @@
-#include <stdio.h>
 #include "main.h"
-
 /**
- * main - Entry point of the program
+ * print_alphabet - Writes a single character to the standard output
  *
- * Return: Always 0 (Success)
+ * Return: None
  */
-int main(void)
+void print_alphabet(void)
 {
-print_alphabet();
-return (0);
+char letter;
+for (letter = 'a'; letter <= 'z'; letter++)
+{
+_putchar(letter);
+}
+_putchar('\n');
 }
