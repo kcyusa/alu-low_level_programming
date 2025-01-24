@@ -7,6 +7,13 @@
  */
 int main(void)
 {
-printf("_putchar\n");
+char text[] = "_putchar";
+int i;
+
+for (i = 0; text[i] != '\0'; i++)
+{
+my_function(text[i]);
+}
+my_function('\n');
 return (0);
 }

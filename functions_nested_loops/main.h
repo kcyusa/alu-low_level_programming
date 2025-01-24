@@ -2,5 +2,5 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-void my_function(void);
+void my_function(char c);
 #endif
