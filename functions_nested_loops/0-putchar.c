@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "main.h"
-
+#include <unistd.h>
 /**
  * my_function - Writes a single character to the standard output
  * @c: The character to be written
