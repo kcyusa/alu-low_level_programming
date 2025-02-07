@@ -1,11 +1,15 @@
-#include <string.h>
 /**
  * _strlen - string size
  *
  * @s: pointer to characters
  * Return: size.
  */
-int _strlen(char *s)
+int _strlen(char *s) {
+int length = 0;
+while (*s)
 {
-return (strlen(s));
+length++;
+s++;
+}
+return length;
 }
