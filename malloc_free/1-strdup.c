@@ -14,7 +14,10 @@ if (str == NULL)
 {
 return (NULL);
 }
-len = strlen(str);
+while (str[len] != '\0')
+{
+len++;
+}
 dup = malloc(sizeof(char) * (len + 1));
 if (dup == NULL)
 {
