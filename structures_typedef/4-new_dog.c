@@ -31,7 +31,7 @@ int i = 0;
 
 if (src == NULL || dest == NULL)
 {
-return NULL;
+return (NULL);
 }
 while (src[i] != '\0')
 {
